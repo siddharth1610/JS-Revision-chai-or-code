@@ -1,0 +1,267 @@
+<!-- ACTIVITY-1 -->
+<!-- TASK:1 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="myid">
+        HELOO,wait for me!!
+    </div>
+
+    <script>
+        document.querySelector("#myid").textContent = "HEY.....!!! Wait"
+    </script>
+</body>
+</html> -->
+
+<!-- TASK:2 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change background class</title>
+</head>
+<body>
+<div class="cla">
+    <button onclick="chncolor()" >Change Color</button>
+</div>
+
+<script>
+    function chncolor(){
+        //document.querySelector(".cla").style.backgroundColor ="aqua"
+        document.body.style.backgroundColor ="aqua"
+    }
+</script>
+    
+</body>
+</html> -->
+
+<!-- ACTIVITY - 2
+TASK-3 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating a new div</title>
+</head>
+<body>
+
+    <script>
+        let div =document.createElement("div")
+        div.textContent = "Helo"
+        document.body.appendChild(div)
+    </script>
+    
+</body>
+</html> -->
+
+<!-- TASK-4 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>removing a new li</title>
+</head>
+<body>
+    <ul>
+        <li>MONDAY</li>
+        <li>TUESDAY</li>
+        <li>WEDNESDAY</li>
+        <li>THURSDAY</li>
+    </ul>
+
+    <script>
+        let li = document.createElement("li")
+        let ul = document.querySelector("ul")
+        li.textContent= "i am One"
+        ul.appendChild(li)
+    </script>
+</body>
+</html> -->
+
+<!-- ACTIVITY-3
+TASK-5 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remove it from dom</title>
+</head>
+
+<body>
+    <div class="one">hello,how are you</div>
+    <button onclick="clr()">remove</button>
+
+    <script>
+        function clr() {
+            let a = document.querySelector(".one")
+            console.log(a);
+            a.remove()
+        }
+    </script>
+
+</body>
+</html> -->
+
+<!-- TASK-6 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remove the last child</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+        <button onclick="remov()">remove last element</button>
+    </div>
+    <script>
+        function remov(){
+        let a = document.querySelector("ul")
+        //console.log(a)
+       a.lastElementChild.remove()
+    }
+    </script>
+
+</body>
+</html> -->
+
+<!-- ACTIVITY-4
+TASK-7 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <div>
+        <p class="main">
+            <img src="as.jps" alt="">
+        </p>
+    </div>
+    <script>
+      let a =  document.querySelector(".main")
+      a.setAttribute("src","new.jpg")
+
+    </script>
+</body>
+</html> -->
+
+<!-- TASK-8 -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .abz{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>add and remove css class</h1>
+    <button class="one">add class</button>
+    <button class="two">delete class</button>
+
+    <script>
+        let a=document.querySelector(".one")
+        let b = document.querySelector(".two")
+
+        a.addEventListener("click",()=>{
+            document.querySelector("h1").classList.add("abz")
+        })
+        b.addEventListener("click",()=>{
+            document.querySelector("h1").classList.remove("abz")
+        })
+
+
+    </script>
+</body>
+</html> -->
+
+
+<!-- ACTIVITY - 5 EVENT HANDLING 
+TASK-9 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add a click event</title>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore placeat aperiam, recusandae sit esse sunt aliquam! Quam quia non iusto a cumque ex expedita corrupti optio velit laborum unde sunt reiciendis neque, quos aliquid sit amet voluptatem nostrum in doloribus.
+        </p>
+        <button> CHANGE TEXT</button>
+    </div>
+    <script>
+        let p =document.querySelector("button")
+        
+        p.addEventListener("click",()=>{
+            document.querySelector("p").textContent= "hey!!!how are you?"
+        })
+    </script>
+</body>
+</html> -->
+
+<!-- TASK-10 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .container{
+            border: 2px solid red;
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="one"> hover on me</div>
+
+    <script>
+       let a= document.querySelector("#one")
+       console.log(a);
+       a.addEventListener("mouseover",()=>{
+        a.classList.add("container")
+
+       })
+       a.addEventListener("mouseout",()=>{
+        a.classList.remove("container")
+
+       })
+    </script>
+</body>
+</html>
